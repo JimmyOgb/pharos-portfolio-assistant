@@ -1,0 +1,26 @@
+{
+  "name": "pharos-portfolio-assistant",
+  "version": "0.1.0",
+  "description": "Read-only Pharos Portfolio Assistant for Pacific Mainnet (Chain ID 1672)",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "node --experimental-strip-types src/config/validate.ts",
+    "check:env": "node --experimental-strip-types src/config/validate.ts",
+    "test": "node --test --experimental-strip-types tests/unit/*.test.ts",
+    "test:integration": "node --test --experimental-strip-types tests/integration/*.test.ts",
+    "test:all": "node --test --experimental-strip-types tests/**/*.test.ts",
+    "cli": "node --experimental-strip-types src/cli/index.ts",
+    "serve": "node --experimental-strip-types src/server/index.ts",
+    "start": "node --experimental-strip-types src/server/index.ts"
+  },
+  "keywords": [
+    "pharos",
+    "defi",
+    "portfolio",
+    "assistant",
+    "typescript"
+  ],
+  "author": "JimmyOgb",
+  "license": "MIT"
+}
