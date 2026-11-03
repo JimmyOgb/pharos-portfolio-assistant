@@ -5,7 +5,8 @@
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
-    "build": "node --experimental-strip-types src/config/validate.ts",
+    "build": "node --experimental-strip-types src/config/validate.ts && esbuild src/api/*.ts --bundle --platform=node --format=esm --outdir=api",
+    "bundle:api": "esbuild src/api/*.ts --bundle --platform=node --format=esm --outdir=api",
     "check:env": "node --experimental-strip-types src/config/validate.ts",
     "test": "node --test --experimental-strip-types tests/unit/*.test.ts",
     "test:integration": "node --test --experimental-strip-types tests/integration/*.test.ts",
@@ -22,5 +23,8 @@
     "typescript"
   ],
   "author": "JimmyOgb",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
 }

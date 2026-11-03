@@ -4,7 +4,7 @@
  */
 
 import type { IncomingMessage, ServerResponse } from "node:http";
-import { createServerContext, handleApiRequest } from "../src/server/router.ts";
+import { createServerContext, handleApiRequest } from "../server/router.ts";
 
 const ctx = createServerContext();
 

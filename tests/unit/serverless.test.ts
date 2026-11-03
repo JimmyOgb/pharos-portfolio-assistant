@@ -3,11 +3,11 @@ import assert from "node:assert";
 import { EventEmitter } from "node:events";
 import { IncomingMessage, ServerResponse } from "node:http";
 
-import healthHandler from "../../api/health.ts";
-import protocolsHandler from "../../api/protocols.ts";
-import portfolioHandler from "../../api/portfolio.ts";
-import askHandler from "../../api/ask.ts";
-import catchAllHandler from "../../api/index.ts";
+import healthHandler from "../../api/health.js";
+import protocolsHandler from "../../api/protocols.js";
+import portfolioHandler from "../../api/portfolio.js";
+import askHandler from "../../api/ask.js";
+import catchAllHandler from "../../api/index.js";
 
 function createMockReqRes(method: string, url: string, body?: string) {
   const req = new EventEmitter() as unknown as IncomingMessage;

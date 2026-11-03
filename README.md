@@ -2,6 +2,11 @@
 
 A production-grade, strictly read-only portfolio assistant and query engine for **Pharos Pacific Mainnet** (`Chain ID: 1672`). Provides real-time asset discovery, multi-protocol balance aggregation, accounting separation (preventing double-counting), ERC-4626 share-to-asset valuation, and verifiable cryptographic block provenance for any EVM wallet address.
 
+- 🌐 **Live Vercel Production Preview:** [https://pharos-portfolio-assistant.vercel.app](https://pharos-portfolio-assistant.vercel.app)
+- 📦 **Public GitHub Repository:** [https://github.com/JimmyOgb/pharos-portfolio-assistant](https://github.com/JimmyOgb/pharos-portfolio-assistant)
+- ⚡ **API Status Endpoint:** [https://pharos-portfolio-assistant.vercel.app/api/health](https://pharos-portfolio-assistant.vercel.app/api/health)
+- 📋 **Supported Protocols Endpoint:** [https://pharos-portfolio-assistant.vercel.app/api/protocols](https://pharos-portfolio-assistant.vercel.app/api/protocols)
+
 ---
 
 ## ⚡ How to Test (Judge & Reviewer Quick-Start)

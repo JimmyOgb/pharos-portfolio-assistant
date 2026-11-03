@@ -29,6 +29,7 @@ desktop.ini
 dist/
 build/
 .vercel/
+.vercel
 
 # Sensitive key material
 *.pem
