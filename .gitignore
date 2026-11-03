@@ -10,6 +10,12 @@
 # Dependencies
 node_modules/
 
+# Media and Demo Video Outputs
+demo-output/
+*.mp4
+*.wav
+*.mp3
+
 # Logs and debug output
 *.log
 npm-debug.log*
